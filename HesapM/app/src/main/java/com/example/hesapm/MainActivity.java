@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
             sayi1=value;
         }else{
             sayi2=value;
-            if(bekleyenOperator=="="){
+            if(bekleyenOperator.equals("=")){
                 bekleyenOperator=op;
             }
             switch (bekleyenOperator){

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "274418601841",
+    "project_id": "mobilprogfinal-1fa3f",
+    "storage_bucket": "mobilprogfinal-1fa3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274418601841:android:360fd4abf7f218dc2630d0",
+        "android_client_info": {
+          "package_name": "com.example.mobilprogramlamafinalsinavi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274418601841-92h6kot6j7dsmp9cturo0srqdcc1c3vp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk1uSkKjgn2yrskihLHOm8gamUEZ3Dlzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274418601841-92h6kot6j7dsmp9cturo0srqdcc1c3vp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
