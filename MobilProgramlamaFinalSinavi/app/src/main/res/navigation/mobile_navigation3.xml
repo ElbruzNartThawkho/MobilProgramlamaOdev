@@ -2,8 +2,14 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation"
-    app:startDestination="@id/grupOlustur">
+    android:id="@+id/mobile_navigation3"
+    app:startDestination="@id/mesajOlustur">
+
+    <fragment
+        android:id="@+id/nav_cikis"
+        android:name="com.example.mobilprogramlamafinalsinavi.Cikis"
+        android:label="fragment_cikis"
+        tools:layout="@layout/fragment_cikis" />
     <fragment
         android:id="@+id/grupOlustur"
         android:name="com.example.mobilprogramlamafinalsinavi.GrupOlustur"
@@ -24,9 +30,4 @@
         android:name="com.example.mobilprogramlamafinalsinavi.MesajGonder"
         android:label="fragment_mesaj_gonder"
         tools:layout="@layout/fragment_mesaj_gonder" />
-    <fragment
-        android:id="@+id/cikis"
-        android:name="com.example.mobilprogramlamafinalsinavi.Cikis"
-        android:label="fragment_cikis"
-        tools:layout="@layout/fragment_cikis" />
 </navigation>

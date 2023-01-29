@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/grupOlustur"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="Grup Olustur" />
+        <item
+            android:id="@+id/grubaUyeEkle"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Gruba Uye Ekle" />
+        <item
+            android:id="@+id/mesajOlustur"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Mesaj Olustur" />
+        <item
+            android:id="@+id/mesajGonder"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="Mesaj Gonder" />
+        <item
+            android:id="@+id/nav_cikis"
+            android:icon="@android:drawable/ic_delete"
+            android:title="Cıkıs" />
+    </group>
+</menu>
